@@ -1,0 +1,23 @@
+.updown-animation{
+    animation-name: infiniteupdown;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all .5s;
+}
+
+
+@keyframes infiniteupdown {
+    0%{
+        transform: translateY(40px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(40px);
+    }
+}
