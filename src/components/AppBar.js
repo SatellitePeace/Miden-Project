@@ -16,6 +16,7 @@ import Logo from "../assets/icons/logoClear.svg";
 
 const pages = ['Login', 'Sign up'];
 
+// hover effect for btn
 
 export default function NavBar() {
   const [anchorElNav, setAnchorElNav] = useState(null);

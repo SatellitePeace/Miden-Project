@@ -5,8 +5,6 @@ import {Box} from '@mui/material'
 
 export default function AnimatedCard() {
   return (
-    <Box className="updown-animation">
-          <img style={{width: '30vw', zIndex:1}} src={CardATM} alt="ATM card" />
-    </Box>
+          <img className="updown-animation" style={{width: '120%', zIndex:1}} src={CardATM} alt="ATM card" />
   )
 }
