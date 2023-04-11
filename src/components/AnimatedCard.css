@@ -1,23 +1,58 @@
 .updown-animation{
     animation-name: infiniteupdown;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
     transition: all .5s;
+    position: absolute;
+    bottom: -8rem;
+    right: 0;
+    display: block;
 }
 
 
 @keyframes infiniteupdown {
     0%{
-        transform: translateY(40px);
+        transform: translateY(0px);
     }
     50%{
-        transform: translateY(-10px);
+        transform: translateY(-2rem);
     }
     100%{
-        transform: translateY(40px);
+        transform: translateY(0px);
+    }
+} 
+
+@media (max-width:767px) {
+    .updown-animation{
+        width: 100% !important;
+        position: inherit !important;
+        margin: -10rem 1rem 0 1rem !important;
     }
 }
+
+
+@media screen and (min-width: 767px) and (max-width: 870px) {
+    .updown-animation{
+        width: 25rem !important;
+        position: absolute !important;
+    }
+  }
+  @media screen and (min-width: 871px) and (max-width: 1140px) {
+    .updown-animation{
+        width: 27rem !important;
+        position: absolute !important;
+    }
+  }
+    @media screen and (min-width: 871px) and (max-width: 991px) {
+    .updown-animation{
+        width: 27rem !important;
+        position: absolute !important;
+
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1130px) {
+    .updown-animation{
+        width: 28.5rem !important;
+    }
+  }
