@@ -1,9 +1,10 @@
 .footer{
+    box-sizing: border-box;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 4rem;
+    margin-top: 6rem;
     color: #fff;
     opacity: 0.8;
     background: rgba(255, 255, 255, 0.05);
@@ -19,13 +20,13 @@ h5{
 ul{
     list-style: none;
 }
-
 ul li a{
     text-decoration: none;
     color: #fff;
+    font-weight: 300;
     opacity: 0.8;
     display: inline-block;
-    margin: 0.7rem 0;
+    margin: 1rem 0;
     cursor: pointer;
 }
 
@@ -43,11 +44,11 @@ ul li a{
     color: #fff;
     opacity: 0.4;
     text-align: center;
-    margin-top: 3.5rem;
+    margin: 1.5rem auto;
 }
 .glow-animation{
-    width: 15rem;
-    border-radius: 30px;
+    width: 13rem;
+    border-radius: 50%;
     position: absolute;
     opacity: 0.3;
     animation-name: moving;
@@ -81,7 +82,7 @@ ul li a{
     }
 }
 
-@media screen  and (max-width:768px){
+@media screen  and (max-width:992px){
     .footer{
 flex-direction: column;
     }

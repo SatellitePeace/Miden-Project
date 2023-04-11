@@ -1,0 +1,21 @@
+.form{
+    padding: 6rem;
+    background: rgba(11, 156, 199, 0.36);
+    display: flex;
+    color: white;
+    margin-top: 5rem;
+    border-radius: 4px;
+    position: relative;
+}
+.formHeading{
+font-weight:500; 
+color: #FAFCFD; 
+}
+@media screen and (max-width:414px) {
+    .form{
+        padding: 1rem
+    }
+    .formHeading{ 
+        font-size: 2.2rem !important;
+        }
+}

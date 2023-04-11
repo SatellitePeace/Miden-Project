@@ -11,7 +11,7 @@ export default function Input({label}) {
       size="large"
       style={{ background: "rgba(255, 255, 255, 0.1)", borderRadius: "4px" }}
       InputLabelProps={{
-        style: { color: '#fff' }, 
+        style: { color: '#fff', fontSize:".8rem" }, 
       }}
       sx={{
         input: { color: "#fff" },
